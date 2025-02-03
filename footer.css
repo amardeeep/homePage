@@ -1,0 +1,43 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.contact{
+    flex: 1;
+}
+.contact_links{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+.contact_links>img{
+    flex-basis:auto;
+    max-width: 5%;
+}
+.links_footer{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.links_footer>*{
+    flex-basis: auto;
+    max-width: 6%;
+}
+footer{
+    color: var(--font-color-footer);
+    background-color:var(--bgcolor-footer) ;
+}
+footer >.wrapper{
+    display: flex;
+    flex-direction: row;
+}
+footer >.wrapper>*{
+    flex: 1;
+}
+.footer_portrait>img{
+    max-width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
